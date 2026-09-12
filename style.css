@@ -50,12 +50,16 @@ nav {
   padding:9px 20px;
   border-radius:22px;
   font-size:14px;
-  white-space:nowrap;
+  cursor: pointer;
+  transition: background 0.5s linear;
+}
+.pill:hover{
+  background: linear-gradient(90deg, #7b5cf0, #c94bd6);
 }
 .wave {
   width:42px; height:42px;
   background:#fff;
-  border-radius:50%;
+  border-radius:50%;`
   display:flex; align-items:center; justify-content:center;
   font-size:19px;
   flex-shrink:0;
@@ -304,6 +308,10 @@ h1 {
   color:#fff;
   font-size:14px;
   text-decoration:none;
+  transition: background 05s linear;
+}
+.boutonOffre:hover{
+  background: linear-gradient(90deg, #7b5cf0, #c94bd6);
 }
 
 @media (max-width:700px) {
@@ -406,8 +414,11 @@ h1 {
   color:#fff;
   font-size:14px;
   text-decoration:none;
+  transition: 0.5s background linear;
 }
-
+.boutonClub:hover, .boutonToast:hover{
+  background: linear-gradient(90deg, #7b5cf0, #c94bd6);
+}
 @media (max-width:800px) {
   .offresGrid { grid-template-columns:1fr; }
   .toastTexte, .clubTexte { margin-left:0; margin-top:60px; }
@@ -453,8 +464,11 @@ h1 {
   font-size: 14px;
   text-decoration: none;
   font-weight: 600;
+  transition: 0.5s background linear;
 }
-
+.boutonGrow:hover{
+  background: linear-gradient(90deg, #7b5cf0, #c94bd6);
+}
 .growImg {
   position: absolute;
   width: 260px;
@@ -654,8 +668,11 @@ h1 {
   font-size: 14px;
   text-decoration: none;
   font-weight: 600;
+  transition: 0.5s background linear;
 }
-
+.boutonProjets:hover{
+  background: linear-gradient(90deg, #7b5cf0, #c94bd6);
+}
 .projetsImages {
   display: flex;
   gap: 24px;
